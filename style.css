@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     height: 4rem;
 }
 
@@ -44,6 +44,7 @@ header {
     }
 }
 
+/* Hamburger styles */
 .hamburger {
     display: none;
     color: rgb(0, 0, 0);
@@ -131,19 +132,28 @@ nav ul li a:hover {
 
 .contactForm-container input, textarea{
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px;
     margin-bottom: 1rem;
     resize: vertical;
 }
 .submit-button {
-    padding: 10px 20px;
-    background-color: #0dac30;
+    padding: 10px 10px;
+    background-color:#5CE1E6;
     border: none;
+    color: #031a6b;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: black;
     color: white;
-    border-radius: 4px;
-    font-size: 1rem;
+    box-shadow: 0px 0px 5px #ff00c9;
+    border: none;
     cursor: pointer;
 }
  
@@ -160,11 +170,23 @@ nav ul li a:hover {
  
 /* Footer styles */
 footer {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    background-color: #333;
+    background-color: #031a6b;
     color: white;
+    font-size: 12px;
 }
-/* Hamburger styles */
 
- 
+/* Google Map styles */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
