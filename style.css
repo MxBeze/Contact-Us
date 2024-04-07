@@ -94,6 +94,8 @@ nav ul li a:hover {
     width: 30%;
     padding: 60px 30px;
     text-align: right;
+    background: #f0d5ec;
+    color: black;
 }
 
 .social-icon {
@@ -155,9 +157,9 @@ justify-content: space-around;
 
 .resources-container {
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #f0d5ec;
     display: flex;
-    margin: 30px 10px;
+    margin: 50px 10px;
     justify-content: space-around;
 }
  
@@ -170,7 +172,6 @@ justify-content: space-around;
 .resourcesBlock-faq
 {
     width: 30%;
-    height: 70%;
     padding: 30px;
     margin: 20px;
     border-radius: 10px;
