@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 .contactForm-socials {
     width: 30%;
-    padding: 50px 30px;
+    padding: 60px 30px;
     text-align: right;
 }
 
@@ -109,15 +109,12 @@ nav ul li a:hover {
     margin-right: 10px;
 }
 
-/*test*/
 .contact-container{
 display: flex;
 padding: 0 30px;
 margin: 10px 0;
 justify-content: space-around;
 }
-/*test*/
-
 
 .contactForm-socials label,
 .contactForm-container label {
