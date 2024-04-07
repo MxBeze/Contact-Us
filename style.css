@@ -180,9 +180,29 @@ justify-content: space-around;
 background: #5ce1e6;
 }
 
+.blog-button {
+    padding: 10px 20px;
+    background-color:#031a6b;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.blog-button:hover {
+    background-color: black;
+    box-shadow: 0px 0px 5px #ff00c9;
+    border: none;
+    cursor: pointer;
+}
+
 .resourcesBlock-partnerships,
 .resourcesBlock-faq {
 background: #031a6b;
+color: white;
 }
 
 
