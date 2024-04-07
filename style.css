@@ -176,11 +176,27 @@ justify-content: space-around;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 150ms ease-in-out;
 }
 
 .resourcesBlock-blog{
 background: #5ce1e6;
 }
+
+.resourcesBlock-partnerships:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+    }
+
+.resourcesBlock-blog:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+    }
+
+.resourcesBlock-faq:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+    }
 
 .blog-button {
     padding: 10px 20px;
