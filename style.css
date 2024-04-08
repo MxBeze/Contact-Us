@@ -157,7 +157,7 @@ flex-wrap: wrap;
 .resources-container {
     text-align:center;
     background-color: #f0d5ec;
-    margin: 50px 25px;
+    margin: 50px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
