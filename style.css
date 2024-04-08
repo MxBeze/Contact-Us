@@ -154,7 +154,6 @@ flex-wrap: wrap;
     cursor: pointer;
 }
  
-
 .resources-container {
     text-align: center;
     background-color: #f0d5ec;
@@ -177,6 +176,8 @@ flex-wrap: wrap;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: all 150ms ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .resourcesBlock-blog{
@@ -224,8 +225,6 @@ color: white;
 }
 
 
- 
-/* Footer styles */
 footer {
     padding: 5px;
     text-align: center;
