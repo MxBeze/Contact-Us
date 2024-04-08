@@ -175,6 +175,10 @@ justify-content: center;
    margin-bottom: 10px;
 }
 
+.resources-text {
+    margin-bottom: 20px;
+}
+
 .resourcesBlock-partnerships,
 .resourcesBlock-blog,
 .resourcesBlock-faq
