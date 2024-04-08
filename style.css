@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .contactForm-container {
-    width: 60%;
+    width: 60vw;
     padding: 20px;
 }
 
@@ -114,9 +114,9 @@ nav ul li a:hover {
 
 .contact-container{
 display: flex;
-padding: 0 30px;
+padding: 0 60px;
 margin: 10px 0;
-justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .contactForm-container label {
@@ -160,7 +160,7 @@ justify-content: space-around;
     background-color: #f0d5ec;
     display: flex;
     margin: 50px 10px;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
  
 .resources-container h2 {
